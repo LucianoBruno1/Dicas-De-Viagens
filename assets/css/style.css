@@ -30,6 +30,7 @@ body{
     margin: 0 20px; 
     color: #f4f4f4;
 }
+
 .login-register a:hover{
     transform: scale(1.05);
 }
@@ -55,7 +56,6 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    align-items: center;
 }
 .main-box h2{
     margin-left: 40px;
