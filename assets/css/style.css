@@ -1,0 +1,82 @@
+
+*{
+    font-family: 'Lilita One', cursive;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(47, 175, 189, 0.475);    
+}
+
+.header a{
+    position: relative;
+    text-decoration: none;
+    margin: 0 20px; 
+    color: rgb(15, 76, 229);
+}
+.login-register{
+    display: flex;
+}
+.login-register::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: rgb(15,76,229);
+    border-radius: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.main-box{
+    padding-top: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.main-box h2{
+    margin-left: 40px;
+    font-size: 36px;
+    align-items: center;
+}
+.main-box h1{
+    font-size: 48px;
+    align-items: center;
+}
+.botao button{
+    width: 400px;
+    height: 50px;
+    cursor: pointer;
+    transition:  0.4s ease-in-out;
+    border-radius: 20px;
+}
+
+.botao button:hover{
+    background-color: rgb(68, 235, 235);
+    transform: scale(1.05);
+    transition:  0.4s ease-in-out;
+    
+    
+}
