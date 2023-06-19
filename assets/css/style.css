@@ -21,14 +21,17 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(47, 175, 189, 0.475);    
+    background-color: rgba(8, 174, 193, 0.475);
+        
 }
-
 .header a{
     position: relative;
     text-decoration: none;
     margin: 0 20px; 
-    color: rgb(15, 76, 229);
+    color: #f4f4f4;
+}
+.login-register a:hover{
+    transform: scale(1.05);
 }
 .login-register{
     display: flex;
@@ -39,10 +42,8 @@ body{
     height: 20px;
     background-color: rgb(15,76,229);
     border-radius: 300px;
-    display: block;
     margin: 0 auto;
 }
-
 .main-box{
     padding-top: 200px;
     color: white;
@@ -58,25 +59,23 @@ body{
 }
 .main-box h2{
     margin-left: 40px;
-    font-size: 36px;
+    font-size: 40px;
     align-items: center;
 }
 .main-box h1{
-    font-size: 48px;
+    font-size: 52px;
     align-items: center;
 }
 .botao button{
+    margin-top: 20px;
     width: 400px;
     height: 50px;
     cursor: pointer;
     transition:  0.4s ease-in-out;
     border-radius: 20px;
 }
-
 .botao button:hover{
     background-color: rgb(68, 235, 235);
     transform: scale(1.05);
-    transition:  0.4s ease-in-out;
-    
-    
+    transition:  0.4s ease-in-out;   
 }
