@@ -220,37 +220,37 @@ ul li{
 .paragraph1:hover{
     transform: scale(1.05);
     transition:  ease-in-out 0.4s;
-    background-color: rgb(248, 161, 161)
+    background-color: rgb(68, 235, 235)
 }
 .paragraph2:hover{
     transform: scale(1.05);
     transition:  ease-in-out 0.4s;
-    background-color: rgb(248, 161, 161)
+    background-color: rgb(68, 235, 235)
     
 }
 .paragraph3:hover{
     transform: scale(1.05);
     transition:  ease-in-out 0.4s;
-    background-color: rgb(248, 161, 161)
+    background-color: rgb(68, 235, 235)
     
 }
 .paragraph4:hover{
     transform: scale(1.05);
     transition:  ease-in-out 0.4s;
-    background-color: rgb(248, 161, 161)
+    background-color: rgb(68, 235, 235)
 }
 .paragraph5:hover{
     transform: scale(1.05);
     transition:  ease-in-out 0.4s;
-    background-color: rgb(248, 161, 161)
+    background-color: rgb(68, 235, 235)
 }
 .paragraph6:hover{
     transform: scale(1.05);
     transition:  ease-in-out 0.4s;
-    background-color: rgb(248, 161, 161)
+    background-color: rgb(68, 235, 235)
 }
 .paragraph-footer:hover{
     transform: scale(1.05);
     transition:  ease-in-out 0.4s;
-    background-color: rgb(248, 161, 161)
+    background-color: rgb(68, 235, 235)
 }
