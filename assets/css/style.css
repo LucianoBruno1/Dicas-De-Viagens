@@ -201,8 +201,6 @@ ul li{
     align-items: left;
     margin-left: 25vw;
     transition: 0.4s;
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
-    
 }
 .paragraph-footer{
     width: 10vw;
