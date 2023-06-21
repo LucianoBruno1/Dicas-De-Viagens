@@ -125,7 +125,7 @@ ul li{
   }
 .paragraph1{
     width: 20vw;
-    height: 15vh;
+    height: 20vh;
     padding-top: 4%;
     margin-left: 2%;
     border-radius: 20px;
@@ -139,7 +139,7 @@ ul li{
     display: flex;
     flex-direction: column;
     width: 20vw;
-    height: 15vh;
+    height: 20vh;
     padding-top: 4%;
     margin-left: 2%;
     background-color: purple;
@@ -153,7 +153,7 @@ ul li{
 }
 .paragraph3{
     width: 20vw;
-    height: 15vh;
+    height: 20vh;
     padding-top: 4%;
     margin-left: 2%;
     background-color: purple;
@@ -166,7 +166,7 @@ ul li{
 }
 .paragraph4{
     width: 20vw;
-    height: 15vh;
+    height: 20vh;
     padding-top: 4%;
     margin-left: 2%;
     background-color: purple;
@@ -179,7 +179,7 @@ ul li{
 }
 .paragraph5{
     width: 20vw;
-    height: 15vh;
+    height: 20vh;
     padding-top: 4%;
     margin-left: 2%;
     background-color: purple;
@@ -192,7 +192,7 @@ ul li{
 }
 .paragraph6{
     width: 20vw;
-    height: 15vh;
+    height: 20vh;
     padding-top: 4%;
     margin-left: 2%;
     background-color: purple;
@@ -254,7 +254,7 @@ ul li{
     background-color: rgb(68, 235, 235)
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
     body{
         width: 100%;
         flex-direction: column;
@@ -264,22 +264,22 @@ ul li{
         flex-direction: column;
     }
     .paragraph1{
-        height: 20vh;
+        height: 25vh;
     }
     .paragraph2{
-        height: 20vh;
+        height: 25vh;
     }
     .paragraph3{
-        height: 20vh;
+        height: 25vh;
     }
     .paragraph4{
-        height: 20vh;
+        height: 25vh;
     }
     .paragraph5{
-        height: 20vh;
+        height: 25vh;
     }
     .paragraph6{
-        height: 20vh;
+        height: 25vh;
     }
     
 }
