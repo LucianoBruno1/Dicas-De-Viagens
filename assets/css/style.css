@@ -1,7 +1,7 @@
 
 *{
-    font-family: 'Lilita One', cursive;
-    
+    font-family: sans-serif, cursive;
+    font-weight: bold;
 }
 
 body{
@@ -10,21 +10,20 @@ body{
     height: 100vh;
     width: 100%;
     position: relative;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/background2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    overflow: auto;
 }
 .header{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: rgba(8, 174, 193, 0.475);
-    z-index: 100;
-    
-        
+    margin: 0 auto;  
 }
 .header a{
     position: relative;
@@ -32,11 +31,15 @@ body{
     margin: 0 20px; 
     color: #f4f4f4;
 }
+
 ul li{
     display: inline;
 }
 .login-register a:hover{
     transform: scale(1.05);
+}
+a:hover{
+    color: orange;
 }
 .login-register{
     display: flex;
@@ -95,13 +98,14 @@ ul li{
 /* ----------------------------- SOBRE -------------------------------------*/
 
 .first-box{
-
+    
     justify-content: center;
 }
 .first-box h1{
     width: 100%;
     padding-top: 20px;
     text-align: center;
+    color: #f4f4f4;
 }
 .first-box h1::after{
     content: '';
@@ -119,9 +123,9 @@ ul li{
   .text p {
     padding-left: 1vw;
     background-color: #f4f4f4;
-    align-items: left;
+    padding-right: 1vw;
     width: 50%;
-    float: left;
+    text-align: justify;
   }
 .paragraph1{
     width: 20vw;
@@ -133,6 +137,8 @@ ul li{
     border-color: red;
     margin-left: 25vw;
     transition: 0.4s;
+    
+    
 }
 
 .paragraph2{
@@ -142,7 +148,6 @@ ul li{
     height: 20vh;
     padding-top: 4%;
     margin-left: 2%;
-    background-color: purple;
     border-radius: 20px;
     border-style:solid;
     border-color: red;
@@ -156,11 +161,9 @@ ul li{
     height: 20vh;
     padding-top: 4%;
     margin-left: 2%;
-    background-color: purple;
     border-radius: 20px;
     border-style:solid;
     border-color: red;
-    align-items: left;
     margin-left: 25vw;
     transition: 0.4s;
 }
@@ -169,11 +172,9 @@ ul li{
     height: 20vh;
     padding-top: 4%;
     margin-left: 2%;
-    background-color: purple;
     border-radius: 20px;
     border-style:solid;
-    border-color: red;
-    align-items: left;
+    border-color: red;   
     margin-left: 25vw;
     transition: 0.4s;
 }
@@ -182,11 +183,9 @@ ul li{
     height: 20vh;
     padding-top: 4%;
     margin-left: 2%;
-    background-color: purple;
     border-radius: 20px;
     border-style:solid;
     border-color: red;
-    align-items: left;
     margin-left: 25vw;
     transition: 0.4s;
 }
@@ -195,11 +194,9 @@ ul li{
     height: 20vh;
     padding-top: 4%;
     margin-left: 2%;
-    background-color: purple;
     border-radius: 20px;
     border-style:solid;
     border-color: red;
-    align-items: left;
     margin-left: 25vw;
     transition: 0.4s;
 }
@@ -207,11 +204,9 @@ ul li{
     width: 10vw;
     height: 10vh;
     padding-top: 4%;
-    background-color: purple;
     border-radius: 20px;
     border-style:solid;
     border-color: red;
-    text-align: center;
     margin-left: 25vw;
     transition: 0.4s;
     
@@ -254,20 +249,17 @@ ul li{
     background-color: rgb(68, 235, 235)
 }
 
-@media screen and (max-width: 900px){
-    body{
-        width: 100%;
-        flex-direction: column;
-    }
+@media (max-width: 980px){
+    
     .text p{
-        width: 100%;
-        flex-direction: column;
+        width: 85%;
+       
     }
     .paragraph1{
         height: 25vh;
     }
     .paragraph2{
-        height: 25vh;
+        height: 20%;
     }
     .paragraph3{
         height: 25vh;
@@ -281,6 +273,7 @@ ul li{
     .paragraph6{
         height: 25vh;
     }
-    
+ 
 }
+
 
