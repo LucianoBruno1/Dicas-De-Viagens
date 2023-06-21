@@ -23,6 +23,7 @@ body{
     align-items: center;
     background-color: rgba(8, 174, 193, 0.475);
     z-index: 100;
+    
         
 }
 .header a{
@@ -252,3 +253,34 @@ ul li{
     transition:  ease-in-out 0.4s;
     background-color: rgb(68, 235, 235)
 }
+
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+        flex-direction: column;
+    }
+    .text p{
+        width: 100%;
+        flex-direction: column;
+    }
+    .paragraph1{
+        height: 20vh;
+    }
+    .paragraph2{
+        height: 20vh;
+    }
+    .paragraph3{
+        height: 20vh;
+    }
+    .paragraph4{
+        height: 20vh;
+    }
+    .paragraph5{
+        height: 20vh;
+    }
+    .paragraph6{
+        height: 20vh;
+    }
+    
+}
+
