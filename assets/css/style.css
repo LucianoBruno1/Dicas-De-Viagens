@@ -51,6 +51,7 @@ a:hover{
 }
 .login-register{
     display: flex;
+    flex-wrap: wrap;
 }
 .login-register::before{
     content: '';
@@ -127,7 +128,7 @@ a:hover{
 }
 .text {
     text-indent: 30px;
-    
+    flex-wrap: wrap;
   }
   
   .text p {
