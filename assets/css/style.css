@@ -23,9 +23,8 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(8, 174, 193, 0.475);
     z-index: 100; 
-    margin: 0 auto;
+
 }
 .header-logo{
     padding-left: 30px;
@@ -37,15 +36,26 @@ body{
     color: #f4f4f4;
 }
 main{
-  width: 100%;
- padding-top: 10vh;
+width: 100%;
+ padding-top: 5vh;
 }
 
 ul li{
     display: inline;
 }
+.login-register{
+    transition: all 0.6s ease-in-out;
+}
 .login-register a:hover{
     transform: scale(1.05);
+    background-color: #f4f4f4
+}
+.login{
+    border: solid;
+    
+}
+.register{
+    border: solid;
 }
 a:hover{
     color: orange;
@@ -101,13 +111,11 @@ a:hover{
 /* ----------------------------- SOBRE -------------------------------------*/
 
 .first-box{
-    
-    justify-content: center;
-    margin: auto;
+    width: 100%;
 }
 .first-box h1{
     width: 100%;
-    padding-top: 20px;
+    padding-top: 2vh;
     text-align: center;
     color: #f4f4f4;
     margin: auto;
@@ -130,16 +138,14 @@ a:hover{
     background-color: #f4f4f4;
     padding-right: 1vw;
     width: 50%;
+    height: 50%;
     text-align: justify;
     margin: 0 auto;
     margin-bottom: 2vh;
   }
 .paragraph1{
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 20vh;
-    padding-top: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-left: 2%;
     border-radius: 20px;
     border-style:solid;
@@ -149,11 +155,8 @@ a:hover{
 }
 
 .paragraph2{
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 20vh;
-    padding-top: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-left: 2%;
     border-radius: 20px;
     border-style:solid;
@@ -164,11 +167,8 @@ a:hover{
     
 }
 .paragraph3{
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 20vh;
-    padding-top: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-left: 2%;
     border-radius: 20px;
     border-style:solid;
@@ -177,11 +177,8 @@ a:hover{
     transition: 0.4s;
 }
 .paragraph4{
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 20vh;
-    padding-top: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-left: 2%;
     border-radius: 20px;
     border-style:solid;
@@ -190,11 +187,8 @@ a:hover{
     transition: 0.4s;
 }
 .paragraph5{
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 20vh;
-    padding-top: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-left: 2%;
     border-radius: 20px;
     border-style:solid;
@@ -203,11 +197,8 @@ a:hover{
     transition: 0.4s;
 }
 .paragraph6{
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 20vh;
-    padding-top: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-left: 2%;
     border-radius: 20px;
     border-style:solid;
@@ -216,18 +207,14 @@ a:hover{
     transition: 0.4s;
 }
 .paragraph-footer{
-    display: flex;
-    flex-direction: column;
-    width: 10vw;
-    height: 10vh;
-    padding-top: 4%;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     border-radius: 20px;
     border-style:solid;
     border-color: red;
     margin-left: 25vw;
     transition: 0.4s;
-    text-align: center;
-    
 }
 .paragraph1:hover{
     transform: scale(1.05);
