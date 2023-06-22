@@ -23,13 +23,17 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: rgba(8, 174, 193, 0.475);
-    margin: 0 auto;  
+    margin:  auto;  
+    border-radius: 30px;
 }
 .header a{
     position: relative;
     text-decoration: none;
     margin: 0 20px; 
     color: #f4f4f4;
+}
+main{
+    min-width: 320px;
 }
 
 ul li{
@@ -100,12 +104,14 @@ a:hover{
 .first-box{
     
     justify-content: center;
+    margin: auto;
 }
 .first-box h1{
     width: 100%;
     padding-top: 20px;
     text-align: center;
     color: #f4f4f4;
+    margin: auto;
 }
 .first-box h1::after{
     content: '';
@@ -117,7 +123,7 @@ a:hover{
 }
 .text {
     text-indent: 30px;
-    flex-wrap: wrap;
+    
   }
   
   .text p {
@@ -126,6 +132,8 @@ a:hover{
     padding-right: 1vw;
     width: 50%;
     text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 2vh;
   }
 .paragraph1{
     width: 20vw;
@@ -137,8 +145,6 @@ a:hover{
     border-color: red;
     margin-left: 25vw;
     transition: 0.4s;
-    
-    
 }
 
 .paragraph2{
@@ -209,6 +215,7 @@ a:hover{
     border-color: red;
     margin-left: 25vw;
     transition: 0.4s;
+    text-align: center;
     
 }
 .paragraph1:hover{
@@ -249,7 +256,7 @@ a:hover{
     background-color: rgb(68, 235, 235)
 }
 
-@media (max-width: 980px){
+@media (max-width: 900px){
     
     .text p{
         width: 85%;
