@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="shortcut icon" href="../assets/images/logomarca2.png" type="image/x-icon">
 </head>
+
 <body>
-    
-</body>
+        <header>
+            <div class="header" id="header">
+                <div class="header-logo" id="header-logo">
+                    <a href="index.html"><img src="../assets/images/logomarca2.png" alt="Logomarca" width="80px"></a>
+                </div>
+                <nav class="navigation" id="navigation">
+                    <ul>
+                        <li class="one" id="one"><a href="index.html">HOME</a></li>
+                        <li class="two" id="two"><a href="sobre.html">SOBRE</a></li>
+                        <li class="three" id="three"><a href="#">DESTINOS</a></li>
+                        <li class="four" id="four"><a href="#">GALERIA</a></li>
+                    </ul>
+                </nav>
+                <div class="login-register" id="login-register">
+                    <a class="login" href="login.html">LOGIN</a>
+                    <a class="register" href="#">CADASTRAR</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <form action="" method="post">
+                <div class="main-box-login">
+                    <h2>ENTRAR</h2>
+                    <div class="input">
+                        <input class="box-login" required type="email" name="email" id="email"
+                            placeholder="Digite seu email">
+                    </div>
+                    <div class="input">
+                        <input class="box-login" required type="password" name="password" id="password"
+                            placeholder="Digite sua senha">
+                    </div>
+                    <button class="button-login">
+                        ENTRAR
+                    </button>
+                    <footer>
+                        <div class="forgot-password">
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
+                    </footer>
+                </div>
+            </form>
+        </main>
+    </body> 
 </html>
