@@ -276,7 +276,7 @@ ul li a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 7%;
+    padding-top: 4%;
     background-color: rgb(20, 228, 247, .3);
     width: 30vw;
     height: 50vh;
@@ -284,7 +284,8 @@ ul li a:hover{
     box-shadow: inset 0 0 1em black, 0 0 1em aqua;
 }
 .main-box-login h2{
-    padding-bottom: 3vh;
+    
+    font-weight: bold;
 
 }
 
@@ -301,6 +302,10 @@ ul li a:hover{
     background-color: black;
     border-radius: 10px;
     text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+.box-login:hover{
+    box-shadow: inset 3px 3px 1em rgb(1, 75, 106), 3px 3px 1em rgb(80, 4, 243);
 }
 .button-login{
     display: flex;
@@ -332,7 +337,7 @@ ul li a:hover{
 }
 @media  (max-width: 912px) {
     .main-box-login{
-        width: 90%;
+        width: 70%;
     }
     .forgot-password a{
         margin-left: 0;
