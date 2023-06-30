@@ -40,7 +40,6 @@ body{
 main{
  width: 100%;
  padding-top: 5vh;
- visibility: hidden;
 }
 
 ul li{
@@ -80,6 +79,7 @@ ul li a:hover{
     display: flex; 
 }
 
+
 .main-box{
     padding-top: 10%;
     color: white;
@@ -91,6 +91,7 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    visibility: hidden;
 }
 .main-box h2{
     margin-left: 40px;
