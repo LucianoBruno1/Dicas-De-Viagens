@@ -24,6 +24,7 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100; 
+    
 }
 .header-logo{
     padding-left: 30px;
@@ -103,7 +104,7 @@ ul li a:hover{
     align-items: center;
 }
 
-.botao button{
+.botao input{
     margin-top: 3vh;
     width: 100%;
     height: 50px;
@@ -114,7 +115,7 @@ ul li a:hover{
     padding-inline: 6vw;
 }
 
-.botao button:hover{
+.botao input:hover{
     background-color: rgb(68, 235, 235);
     transform: scale(1.05);
     transition:  0.4s ease-in-out;   
@@ -394,7 +395,7 @@ ul li a:hover{
     height: 100%;
     background: gold;
     z-index: -1;
-    transition: width 150ms ease-in-out;
+    transition: width 300ms ease-in-out;
   }
   
   &:hover {
@@ -407,7 +408,6 @@ ul li a:hover{
 .buttons-destinos button:hover{
     transform: scale(1.05);
 }
-
 @media  (max-width: 540px) {
    .buttons-destinos {
     flex-direction: column;
@@ -420,8 +420,68 @@ ul li a:hover{
     height: 20vh;
     
    }
-
 }
+/* -------------------------- CONTATO ------------------------ */
+.main-contato{
+    background-color: rgb(20, 228, 247, .3);
+    border-radius: 50px;
+    display: flex; 
+    color: black;
+    width: 38vw;
+    height: 70vh;
+    box-shadow: inset 3px 3px 1em rgb(1, 75, 106), 3px 3px 1em rgb(80, 4, 243);
+}
+.box-contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    
+    
+}
+.box-contato input{
+    margin: 2vh auto;
+    width: 20vw;
+    height: 4vh;
+    background-color: black;
+    border-radius: 10px;
+    color: #f4f4f4;
+}
+
+
+.labelnome {
+    padding-right: 100%;
+}
+.labelemail{
+    padding-right: 100%;
+}
+.labeltelefone{
+    padding-right: 100%;
+}
+
+textarea{
+    text-indent: 20px;
+    border-radius: 10px;
+    resize: none;
+    background-color: black;
+    color: #f4f4f4;
+}
+
+.botao-contato{
+    margin: 20px auto;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    background-color: rgb(0, 177, 177);
+}
+.botao-contato:hover{
+    transform: scale(1.05);
+    background-color:rgb(4, 252, 252) ;
+    
+}
+
+
 
 
 

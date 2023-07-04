@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="shortcut icon" href="../assets/images/logomarca2.png" type="image/x-icon">
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
     <header>
         <div class="header" id="header">
@@ -22,33 +24,30 @@
                     <li class="four" id="four"><a href="galeria.html">GALERIA</a></li>
                     <li class="five" id="five"><a href="contato.html">CONTATO</a></li>
                 </ul>
-                </ul>
-            </nav>    
+            </nav>
             <div class="login-register" id="login-register">
                 <a class="login" href="login.html">LOGIN</a>
                 <a class="register" href="registrar.html">CADASTRAR</a>
-            </div>     
+            </div>
         </div>
     </header>
     <main>
-        <div class="main-box" id="main-box">
-            <div class="title" id="title">
-                <h2>EXPLORE</h2>
-                <h1>O MUNDO!</h1>
+        <form>
+            <div class="main-contato">
+                <div class="box-contato">
+                    <label class="labelnome" for="nome">Nome:</label>
+                    <input required type="text" name="nome" id="nome" placeholder="Insira seu nome">
+                    <label class="labelemail" for="email">Email:</label>
+                    <input  required type="email" name="email" id="email" placeholder="Insira seu email">
+                    <label class="labeltelefone" for="telefone">Telefone:</label>
+                    <input required type="text" name="telefone" id="telefone"
+                        placeholder="Insira seu número de telefone">
+                    <label class="labeltextarea" for="textarea">Qual a sua dúvida?</label>
+                    <textarea required name="duvida" id="duvida" cols="40" rows="12"></textarea>
+                    <button class="botao-contato">
+                        ENVIAR
+                    </button>
+                </div>
             </div>
-            <div class="botao" id="botao">
-               
-                   <a href="destinos.html"><input type="button" value="Descubra agora!"></a>
-                
-            </div>
-            <div class="social-medias" id="social-medias">
-                <a href="https://www.instagram.com/" target="_blank" rel="nofollow"><img src="../assets/images/logo-do-instagram.png"  alt="Logomarca do instagram"></a>
-                <a href="https://www.facebook.com/" target="_blank" rel="nofollow"><img src="../assets/images/logo-do-facebook.png" alt="Logomarca do Facebook"></a>
-                <a href="https://twitter.com/home" target="_blank" rel="nofollow"><img src="../assets/images/logo-do-twitter.png"  alt="Logomarca do twitter"></a>
-                <a href="https://github.com/LucianoBruno1?tab=repositories" target="_blank" rel="dofollow"> <img src="../assets/images/logo-do-github.png" alt=""></a>
-            </div>
-        </div>
+        </form>
     </main>
-</body>
-<script src="../script/script.js"></script>
-</html>

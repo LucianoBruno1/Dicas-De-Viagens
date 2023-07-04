@@ -20,6 +20,7 @@
                         <li class="two" id="two"><a href="sobre.html">SOBRE</a></li>
                         <li class="three" id="three"><a href="destinos.html">DESTINOS</a></li>
                         <li class="four" id="four"><a href="galeria.html">GALERIA</a></li>
+                        <li class="five" id="five"><a href="contato.html">CONTATO</a></li>
                 </ul>
             </nav>
             <div class="login-register" id="login-register">
@@ -29,7 +30,7 @@
         </div>
     </header>
     <main>
-        <form action="" method="post">
+        <form>
             <div class="main-box-login">
                 <h2>CADASTRE-SE</h2>
                 <div class="input">
@@ -37,22 +38,23 @@
                         placeholder="Digite seu email">
                 </div>
                 <div class="input">
-                    <input class="box-login" required type="text" name="nome" id="nome" placeholder="Seu primeiro nome" >
+                    <input class="box-login" required type="text" name="name" id="name" placeholder="Seu primeiro nome" >
                 </div>
                 <div class="input">
                     <input class="box-login" required type="password" name="password" id="password"
                         placeholder="Digite sua senha">
                 </div>
                 <div class="input">
-                    <input class="box-login" required type="password" name="password" id="password" placeholder="Confirme a senha">
+                    <input class="box-login" required type="password" name="password-confirm" id="password-confirm" placeholder="Confirme a senha">
                 </div>
                 
-                <button class="button-login">
-                    ENTRAR
+                <button class="button-login" onclick="cadastrar()">
+                    CADASTRAR
                 </button> 
             </div>
         </form>
     </main>
+    <script src="../script/cadastro.js"></script>
 </body> 
     
 </body>
