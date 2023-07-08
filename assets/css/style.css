@@ -368,12 +368,13 @@ ul li a:hover{
    
 }
 .all-destinos img{
-    width: 11vw;
+    width: 11.5vw;
     height: 20vh;
     border: solid;
-    border-radius: 80px;
+    border-radius: 20px;
     transition: all 0.3s ease-in-out;
-    margin-left: 4.5vw;
+    margin-left: 20%;
+    
 
 }
 .all-destinos h2{

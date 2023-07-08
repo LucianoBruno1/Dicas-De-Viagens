@@ -84,6 +84,72 @@ var destinos = [
     "descricao":"teste",
     "imagem": "../assets/images/images-destinys/cataratas-do-niagara.jpg",
     "continente": "América do Norte"
+    },
+    {
+      "nome": "Grand canyon",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/grand-canyon.jpg",
+      "continente": "América do Norte"
+    },
+    {
+      "nome": "Cancún",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/cancun.jpg",
+      "continente": "América do Norte"
+    },
+    {
+      "nome": "Vancouver",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/vancouver.jpg",
+      "continente": "América do Norte"
+    },
+    {
+      "nome": "Yellowstone national park",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/Yellowstone.jpg",
+      "continente": "América do Norte"
+    },
+    {
+      "nome": "Banff national park",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/banff.jpg",
+      "continente": "América do Norte"
+    },
+    {
+      "nome": "Zion national park",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/zion.jpg",
+      "continente": "América do Norte"
+    },
+    {
+      "nome": "Los cabos",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/loscabos.jpg",
+      "continente": "América do Norte"
+    },
+    {
+      "nome": "Miami beach",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/miamibeach.jpg",
+      "continente": "América do Norte"
+    },
+    {
+      "nome": "Ilha de Roatan",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/ilhaderoatan.jpg",
+      "continente": "América do Norte"
+    },
+    {
+      "nome": "Monte verde",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/monteverde.jpg",
+      "continente": "América do Norte"
+    },
+    {
+      "nome": "Cordilheira dos andes",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/andes.jpg",
+      "continente": "América do Sul"
     }
   ];
   
