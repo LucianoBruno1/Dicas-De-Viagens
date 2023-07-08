@@ -49,7 +49,7 @@ var destinos = [
     {
       "nome": "Paris",
       "descricao":"teste",
-      "imagem": "../assets/images/images-destinys/paris.jpg"
+      "imagem": "../assets/images/images-destinys/Paris.jpg"
     }
   ];
   

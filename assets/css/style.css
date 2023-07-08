@@ -365,9 +365,7 @@ ul li a:hover{
     margin-top: 60px;
     width: 20vw;
     height: 30vh;  
-    border: solid;
-    border-radius: 30px;
-    background-color: rgb(35, 192, 231, .3);
+   
 }
 .all-destinos img{
     width: 11vw;
