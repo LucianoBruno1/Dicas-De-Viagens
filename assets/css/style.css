@@ -353,6 +353,43 @@ ul li a:hover{
 
 /*---------------------- DESTINOS -------------------------*/
 
+
+.all-destinos{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    width: 100%;
+}
+.all-destinos .destino{
+   
+    color: #f4f4f4;
+    margin-top: 60px;
+    width: 20vw;
+    height: 30vh;  
+    border: solid;
+    border-radius: 30px;
+    background-color: rgb(35, 192, 231, .3);
+}
+.all-destinos img{
+    width: 11vw;
+    height: 20vh;
+    border: solid;
+    border-radius: 80px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 4.5vw;
+
+}
+.all-destinos h2{
+    margin-bottom: 18px;
+    text-align: center;
+    
+}
+
+.all-destinos img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
 .main-destinos{
     display: flex;
     flex-direction: column;
@@ -404,6 +441,9 @@ ul li a:hover{
       width: 110%;
     }
   }
+
+  
+
 }
 .buttons-destinos button:hover{
     transform: scale(1.05);
