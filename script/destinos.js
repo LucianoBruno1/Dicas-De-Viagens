@@ -80,6 +80,12 @@ var destinos = [
       "continente": "América do Norte"
     },
     {
+      "nome": "Cordilheira dos andes",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/andes.jpg",
+      "continente": "América do Sul"
+    },
+    {
     "nome": "Cataratas do niágara",
     "descricao":"teste",
     "imagem": "../assets/images/images-destinys/cataratas-do-niagara.jpg",
@@ -146,11 +152,293 @@ var destinos = [
       "continente": "América do Norte"
     },
     {
-      "nome": "Cordilheira dos andes",
+      "nome": "Masai mara",
       "descricao":"teste",
-      "imagem": "../assets/images/images-destinys/andes.jpg",
-      "continente": "América do Sul"
-    }
+      "imagem": "../assets/images/images-destinys/masaimara.jpg",
+      "continente": "África"
+    },
+    {
+      "nome": "Cidade do cabo",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/cidadedocabo.jpg",
+      "continente": "África"
+    },
+    {
+      "nome": "Victoria falls",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/victoriafalls.jpg",
+      "continente": "África"
+    },
+    {
+      "nome": "Pirâmides do egito",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/piramidesdoegito.jpg",
+      "continente": "África"
+    },
+    {
+      "nome": "Marrakech",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/marrakech.jpg",
+      "continente": "África"
+    },
+    {
+      "nome": "Parque nacional Kruger",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/parquenacionalkruger.jpg",
+      "continente": "África"
+    },
+    {
+      "nome": "Ilha de Zanzibar",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/ilhadezanzibar.jpeg",
+      "continente": "África"
+    },
+    {
+      "nome": "Parque nacional etosha",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/parquenacionaletosha.jpg",
+      "continente": "África"
+    },
+    {
+      "nome": "Ilhas Maurício",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/ilhasmauricio.jpg",
+      "continente": "África"
+    },
+    {
+      "nome": "Cidade do cairo",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/cidadedocairo.jpg",
+      "continente": "África"
+    },
+    {
+      "nome": "Cataratas de Augrabies",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/cataratasdeaugrabies.jpg",
+      "continente": "África"
+    },
+    {
+      "nome": "Sossusvlei",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/sossusvlei.jpg",
+      "continente": "África"
+    },
+    ///////////////////////////// ÁSIA //////////////////////////
+    {
+      "nome": "Tóquio",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/toquio.jpg",
+      "continente": "Ásia"
+    },
+    {
+      "nome": "Dubai",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/dubai.jpg",
+      "continente": "Ásia"
+    },
+    {
+      "nome": "Bangkok",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/bangkok.jpg",
+      "continente": "Ásia"
+    },
+    {
+      "nome": "Bali",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/bali.jpg",
+      "continente": "Ásia"
+    },
+    {
+      "nome": "Angkor wat",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/angkor wat.jpg",
+      "continente": "Ásia"
+    },
+    {
+      "nome": "Ilhas maldivas",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/ilhasmaldivas.jpg",
+      "continente": "Ásia"
+    },
+    {
+      "nome": "Luang prabang",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/luangprabang.jpg",
+      "continente": "Ásia"
+    },
+    {
+      "nome": "Petra",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/petra.jpg",
+      "continente": "Ásia"
+    },
+    {
+      "nome": "Yangon",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/yangon.jpg",
+      "continente": "Ásia"
+    },
+    {
+      "nome": "Singapura",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/singapura.jpg",
+      "continente": "Ásia"
+    },
+    {
+      "nome": "Seoul",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/seoul.jpg",
+      "continente": "Ásia"
+    },
+    {
+      "nome": "Bugan",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/bugan.jpg",
+      "continente": "Ásia"
+    },
+    ///////////////////////////// EUROPA ////////////////////////
+    {
+      "nome": "Andaluzia",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/andaluzia.jpg",
+      "continente": "Europa"
+    },
+    {
+      "nome": "Málaga",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/malaga.jpg",
+      "continente": "Europa"
+    },
+    {
+      "nome": "Wicklow",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/wicklow.jpg",
+      "continente": "Europa"
+    },
+    {
+      "nome": "Roma",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/roma.jpg",
+      "continente": "Europa"
+    },
+    {
+      "nome": "Dublin",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/dublin.jpg",
+      "continente": "Europa"
+    },
+    {
+      "nome": "Enniskerry",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/enniskerry.jpg",
+      "continente": "Europa"
+    },
+    {
+      "nome": "Barcelona",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/Barcelona.jpg",
+      "continente": "Europa"
+    },
+    {
+      "nome": "Atenas",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/atenas.jpg",
+      "continente": "Europa"
+    },
+    {
+      "nome": "Santorini",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/santorini.jpg",
+      "continente": "Europa"
+    },
+    {
+      "nome": "Mykonos",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/mykonos.jpg",
+      "continente": "Europa"
+    },
+    {
+      "nome": "Reykjavik",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/reykjavik.jpg",
+      "continente": "Europa"
+    },
+    ////////////////////////// OCEANIA /////////////////////////
+    {
+      "nome": "Ilha norte",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/ilhanorte.jpg",
+      "continente": "Oceania"
+    },
+    {
+      "nome": "Grande barreira de coral",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/grande barreira de coral.jpg",
+      "continente": "Oceania"
+    },
+    {
+      "nome": "Queenstown",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/queenstown.jpg",
+      "continente": "Oceania"
+    },
+    {
+      "nome": "Rotorua",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/rotorua.jpg",
+      "continente": "Oceania"
+    },
+    {
+      "nome": "Ilha fraser",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/ilhafraser.jpg",
+      "continente": "Oceania"
+    },
+    {
+      "nome": "Cairns",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/cairns.jpg",
+      "continente": "Oceania"
+    },
+    {
+      "nome": "Aoraki",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/aoraki.jpg",
+      "continente": "Oceania"
+    },
+    {
+      "nome": "Gold coast",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/goldcoast.jpg",
+      "continente": "Oceania"
+    },
+    {
+      "nome": "Fiord land",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/fiordland.jpg",
+      "continente": "Oceania"
+    },
+    {
+      "nome": "Blue montains",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/bluemountains.jpg",
+      "continente": "Oceania"
+    },
+    {
+      "nome": "Bora bora",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/borabora.jpg",
+      "continente": "Oceania"
+    },
+    {
+      "nome": "Broome",
+      "descricao":"teste",
+      "imagem": "../assets/images/images-destinys/broome.jpg",
+      "continente": "Oceania"
+    },
+
+    
+    
   ];
   
   // Função para exibir os destinos na div "all-destinos"
