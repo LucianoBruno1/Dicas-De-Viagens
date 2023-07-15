@@ -17,6 +17,11 @@ body{
     background-attachment: fixed;
  
 }
+body.modal-open {
+    overflow: hidden;
+  }
+
+
 .header{
     width: 100%;
     display: flex;
@@ -455,25 +460,53 @@ ul li a:hover{
 
 
 .modal-dialog{
+    position: fixed;
     top: 50%;
     left:50%;
-    max-width: 50%;
+    width: 60%;
+    height: 80%;
     transform: translate(-50%, -50%);
     text-align: center;
     border-radius: 30px;
+    transition: 1s;
+    z-index: 10;
 }
+
+
 .modal-dialog img{
-   
+    margin-top: 10px;
     max-width: 90%;
     border-radius: 20px;
     border: solid;
-    margin-bottom: 20px; 
+
 }
 .modal-dialog p{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 3px solid #ccc;
    text-align: justify;
    text-indent: 20px;
     margin-bottom: 20px;
 }
+
+
+#fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+    z-index: 5;
+  }
+  
+  #fade.fade-in {
+    opacity: 1;
+    pointer-events: auto;
+  }
 
 
 @media  (max-width: 540px) {

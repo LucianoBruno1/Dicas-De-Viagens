@@ -519,7 +519,7 @@ var destinos = [
     var allDestinosDiv = document.getElementById("all-destinos");
     allDestinosDiv.innerHTML = "";
   
-    destinos.forEach(function(destino) {
+    destinos.forEach(function (destino) {
       if (!filtro || destino.continente === filtro) {
         var destinoDiv = document.createElement("div");
         destinoDiv.classList.add("destino");
@@ -533,7 +533,7 @@ var destinos = [
         imagem.src = destino.imagem;
         destinoDiv.appendChild(imagem);
   
-        destinoDiv.addEventListener("click", function() {
+        destinoDiv.addEventListener("click", function () {
           abrirModal(destino);
         });
   
@@ -544,7 +544,7 @@ var destinos = [
   
   function abrirModal(destino) {
     var modalDialog = document.getElementById("modal-dialog");
-    modalDialog.innerHTML = ""; 
+    modalDialog.innerHTML = "";
   
     var modalTitle = document.createElement("h2");
     modalTitle.textContent = destino.nome;
@@ -557,27 +557,36 @@ var destinos = [
     var modalDescricao = document.createElement("p");
     modalDescricao.textContent = destino.descricao;
     modalDialog.appendChild(modalDescricao);
-
+  
     var closeButton = document.createElement("button");
     closeButton.textContent = "Fechar";
-    closeButton.addEventListener("click", function() {
+    closeButton.addEventListener("click", function () {
+      document.body.classList.remove('modal-open'); // remover o scroll lateral do body quando abrir o modal
       modalDialog.close();
+      document.getElementById("fade").classList.remove("fade-in"); //remover o efeito escuro quando fechar o modal
+      modalDialog.scrollTop = 0;
     });
     modalDialog.appendChild(closeButton);
-  
+    document.body.classList.add('modal-open'); // Devolver o scroll lateral quando fechar o modal
     modalDialog.showModal();
+    modalDialog.scrollTop = 0;
+    document.getElementById("fade").classList.add("fade-in"); // adicionar o efeito escuro quando abrir o modal
   }
+  
   
   exibirDestinos();
   
   var filtroBtns = document.querySelectorAll(".filtro-btn");
   
-  filtroBtns.forEach(function(btn) {
-    btn.addEventListener("click", function() {
+  filtroBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
       var filtro = btn.getAttribute("data-filtro");
       exibirDestinos(filtro);
     });
   });
   
+
   
+  
+
 
