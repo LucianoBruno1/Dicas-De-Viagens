@@ -364,9 +364,9 @@ ul li a:hover{
     color: #f4f4f4;
     margin-top: 60px;
     width: 20vw;
-    height: 30vh;  
+    height: 30vh;     
    
-   
+    
 }
 .all-destinos img{
     width: 11.5vw;
@@ -449,6 +449,33 @@ ul li a:hover{
 .buttons-destinos button:hover{
     transform: scale(1.05);
 }
+
+
+/* MODAL DESTINOS */
+
+
+.modal-dialog{
+    top: 50%;
+    left:50%;
+    max-width: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 30px;
+}
+.modal-dialog img{
+   
+    max-width: 90%;
+    border-radius: 20px;
+    border: solid;
+    margin-bottom: 20px; 
+}
+.modal-dialog p{
+   text-align: justify;
+   text-indent: 20px;
+    margin-bottom: 20px;
+}
+
+
 @media  (max-width: 540px) {
    .buttons-destinos {
     display: grid;
