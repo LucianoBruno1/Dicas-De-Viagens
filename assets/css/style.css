@@ -363,15 +363,15 @@ ul li a:hover{
     display: grid;
     grid-template-columns:repeat(4,1fr);
     width: 100%;
+   
+    
 }
 .all-destinos .destino{
    
     color: #f4f4f4;
-    margin-top: 60px;
+    margin-top: 40px;
     width: 20vw;
-    height: 30vh;     
-   
-    
+    height: 30vh; 
 }
 .all-destinos img{
     width: 11.5vw;
@@ -470,12 +470,27 @@ ul li a:hover{
     border-radius: 30px;
     transition: 1s;
     z-index: 10;
+    box-shadow: inset 3px 3px 1em rgb(1, 10, 14), 3px 3px 1em rgb(4, 1, 9);
+    
+}
+
+.modal-dialog button{
+    width: 5rem;
+    height: 5%;  
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    background-color: rgb(250, 108, 108);
+    
+}
+.modal-dialog button:hover{
+    transform: scale(1.05);
+    background-color: rgb(241, 0, 0);
 }
 
 
 .modal-dialog img{
     margin-top: 10px;
-    max-width: 90%;
+    width: 95%;
     border-radius: 20px;
     border: solid;
 
@@ -533,14 +548,12 @@ ul li a:hover{
         width: 100%;
     }
     .all-destinos .destino{
-      
         width: 100%;
     }
     .all-destinos img{
         width: 80%;
         margin-left: 10%;
-     
-        
+            
     }
 }
 @media (min-width: 540px) and (max-width: 1000px){
@@ -577,6 +590,16 @@ ul li a:hover{
         
     }
 }
+
+@media (max-width: 768px){
+    .modal-dialog{
+        width: 80%;
+    }
+    .modal-dialog img{
+        width: 100%;
+    }
+}
+
 
 /* -------------------------- CONTATO ------------------------ */
 .main-contato{
