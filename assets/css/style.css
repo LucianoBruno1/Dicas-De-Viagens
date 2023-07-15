@@ -43,6 +43,7 @@ body.modal-open {
     margin: 0 20px; 
     color: #f4f4f4;
 }
+
 main{
  width: 100%;
  padding-top: 5vh;
@@ -125,19 +126,19 @@ ul li a:hover{
     transform: scale(1.05);
     transition:  0.4s ease-in-out;   
 }
-
 .social-medias{
     display: flex;
     width: 200px;
     padding-top: 3%; 
     justify-content: space-around;
 }
-
 @media  (max-width: 912px) {
     .main-box{
         padding-top: 30%;
+        
     }
 }
+
 /* ----------------------------- SOBRE -------------------------------------*/
 
 .first-box{
@@ -700,6 +701,38 @@ textarea{
 }
 
 
+/*======================= GALERIA =========================*/
+
+
+section img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: solid 2px;
+}
+
+section{
+    width: 100%;
+    column-count: 3;
+    column-gap: 10px;
+    height: 100%;
+    overflow: hidden;
+}
+.header-galeria{
+    background-color: black;
+    
+}
+.main-galeria{
+    background-color: black;
+}
+
+@media (max-width: 768px){
+    section{
+        column-count: 2;
+    }
+    
+  
+}
     
 
 
