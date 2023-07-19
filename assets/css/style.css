@@ -464,7 +464,7 @@ ul li a:hover{
     position: fixed;
     top: 50%;
     left:50%;
-    width: 60%;
+    width: 50%;
     height: 80%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -615,7 +615,6 @@ ul li a:hover{
 .box-contato{
 
     height: 90%;
-  
     display: flex;
     flex-direction: column;
     margin-top: 6vh;
@@ -626,9 +625,8 @@ ul li a:hover{
     margin: 2vh auto;
     width: 100%;
     height: 4vh;
-    background-color: black;
-    border-radius: 10px;
-    color: #f4f4f4;
+    border-radius: 5px;
+   
     
 }
 
@@ -644,13 +642,13 @@ ul li a:hover{
 }
 
 textarea{
-   margin-top: 10px;
+    margin-top: 10px;
     width: 100%;
     text-indent: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     resize: none;
-    background-color: black;
     color: #f4f4f4;
+    border: solid black;
 }
 
 .botao-contato{
