@@ -310,15 +310,12 @@ ul li a:hover{
 }
 .box-login{
     width: 60%;
-    color: #f4f4f4;
-    background-color: black;
+  
     border-radius: 10px;
     text-align: center;
     transition: all 0.2s ease-in-out;
 }
-.box-login:hover{
-    box-shadow: inset 3px 3px 1em rgb(1, 75, 106), 3px 3px 1em rgb(80, 4, 243);
-}
+
 .button-login{
     display: flex;
     margin: 3vh;
@@ -605,7 +602,7 @@ ul li a:hover{
 /* -------------------------- CONTATO ------------------------ */
 .main-contato{
     background-color: rgb(20, 228, 247, .3);
-    border-radius: 50px;
+    border-radius: 10px;
     display: flex; 
     color: black;
     width: 38vw;
@@ -626,6 +623,7 @@ ul li a:hover{
     width: 100%;
     height: 4vh;
     border-radius: 5px;
+    border: solid black;
    
     
 }
@@ -647,7 +645,7 @@ textarea{
     text-indent: 20px;
     border-radius: 5px;
     resize: none;
-    color: #f4f4f4;
+  
     border: solid black;
 }
 
