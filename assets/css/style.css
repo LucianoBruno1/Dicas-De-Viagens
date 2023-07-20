@@ -177,7 +177,7 @@ ul li a:hover{
     padding-right: 1vw;
     width: 50%;
     height: 50%;
-    text-align: justify;
+    text-align: center;
     margin: 0 auto;
     margin-bottom: 2vh;
   }
@@ -252,7 +252,7 @@ ul li a:hover{
     margin-left: 25vw;
     transition: 0.4s;
 }
-.paragraph1:hover{
+/* .paragraph1:hover{
     transform: scale(1.05);
     transition:  ease-in-out 0.4s;
     background-color: rgb(68, 235, 235)
@@ -288,7 +288,7 @@ ul li a:hover{
     transform: scale(1.05);
     transition:  ease-in-out 0.4s;
     background-color: rgb(68, 235, 235)
-}
+} */
 
 /* ------------------------------ LOGIN --------------------------------- */
 .main-box-login{
@@ -385,9 +385,8 @@ ul li a:hover{
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
     margin-left: 20%;
-    
-
 }
+
 .all-destinos h2{
     margin-bottom: 18px;
     text-align: center;
