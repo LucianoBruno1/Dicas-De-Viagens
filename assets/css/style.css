@@ -573,9 +573,11 @@ ul li a:hover{
     .all-destinos img{
         width: 80%;
         margin-left: 10%;
-     
-        
     }
+    .modal-dialog{
+        width: 80%;
+    }
+  
 }
 @media (min-width: 1024px) and (max-width: 1300px){
     .all-destinos{
@@ -603,7 +605,6 @@ ul li a:hover{
         width: 100%;
     }
 }
-
 
 /* -------------------------- CONTATO ------------------------ */
 .main-contato{
