@@ -645,6 +645,9 @@ ul li a:hover{
 .labeltelefone{
     padding-right: 100%;
 }
+.labelassunto{
+    padding-right: 100%;
+}
 
 textarea{
     margin-top: 10px;
