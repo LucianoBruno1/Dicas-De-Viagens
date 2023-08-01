@@ -451,10 +451,8 @@ ul li a:hover{
       width: 110%;
     }
   }
-
-  
-
 }
+
 .buttons-destinos button:hover{
     transform: scale(1.05);
 }
@@ -688,6 +686,9 @@ textarea{
     .labeltelefone{
         padding: 0;
     }
+    .labelassunto{
+        padding: 0;
+    }
     .botao-contato{
         width: 60%;
     }
@@ -697,10 +698,14 @@ textarea{
     textarea{
         width: 80%;
     }
+ 
  }
 @media (max-width: 912px) {
     .main-contato{
-        width: 60%;
+        width: 80%;
+    }
+    .box-contato{
+        width: 80%;
     }
    
   
